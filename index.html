@@ -1,28 +1,142 @@
 <!DOCTYPE html>
 <html>
-<head>
-<!-- The HEAD section has (mostly) items that are not directly seen by the user -->
-<!--  Jeria Quesenberry Professional Website
-      Created by: Jeria Quesenberry
-      Date:  February 24, 2015 -->
-	<link rel="stylesheet" media="all" type="text/css" href="styles.css" />
-	<!-- META tags help search engines identify your content more easily -->
-	<meta charset="utf-8" /> <!-- Specifies the character encoding for the HTML document -->
-	<meta name="author" content="Travis Chambers">
-	<meta name="keywords" content="Carnegie Mellon University, IS">
-	<meta name="description" content="Travis Chambers Recycle Park April Tags">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
 
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
 
-	<!-- The title will appear in the menu bar of the browser -->
-	<title>Travis Chambers April Tags Site</title>
-</head>
-<body>
-  <header>
-    <div id="heading">
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32">
+  <h1><b>Recycle Park April Tags</b></h1>
+  <p>For my final project, I continued my work on the April Tags used for the Recycle Park project.</p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="IMG_1184.jpg" alt="Nature" style="width:100%">
+    <div class="w3-container w3-padding-8">
+      <h5>The physical model being setup at the final presentation to the community. The two cameras on bottom are used to track the tags on the bottom of the physcial models through an acrylic window on the bottom of the park.</h5>
     </div>
-  </header>
 
-<p>My first paragraph.</p>
+    <div class="w3-container">
+      <p></p>
+    </div>
+  </div>
+
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="IMG_1186.jpg" alt="Nature" style="width:100%">
+    <div class="w3-container w3-padding-8">
+      <h5>In this image, you can see the inside of the virtual reality goggles during the presentation. As you can see the planters and the wavy wall are both items that we are placing inside the point cloud. These items were moved on the park model and, in real-time, moved in virtual reality.</h5>
+    </div>
+
+    <div class="w3-container">
+      <p></p>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="IMG_1188.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <p>Here you can see the tracking of the April Tags through the acrylic window. As you can see the tags are attached to the bottom of the individual models. This is the view of one of the cameras.</p>
+    </div>
+  </div>
+
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="IMG_1185.jpg" alt="Norway" style="width:50%;">
+  <img src="IMG_1187.jpg" alt="Norway" style="width:50%; float: right;">
+    <div class="w3-container">
+      <p>Here is one of the community members testing out the virtual reality goggles and also the setup of the VR cameras on presentation day. The community members had a lot of positive things to say about the technology and also believed it could be used in other settings like this to allow people to be more involved in planning processes and also so that people can have better understandings of what building projects will look like when finished.</p>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card-2 w3-margin w3-margin-top">
+    <div class="w3-container w3-white">
+      <h4><b>Travis Chambers</b></h4>
+      <p>The Recycle Park project was a collaboration between the Reality Computing students and the Architecture students in UDBS. Recycle Park is a park in Pittsburgh that is being renovated with the help of UDBS. Our role in this process was to use virtual reality to help the community take an active role in the renovation by allowing them to help plan the new park by allowing them to move the pieces around the park model and, in real-time, see what it would look like through the VR goggles.</p>
+    </div>
+  </div>
+
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="Tagsampler.png" style="width:100%">
+    <div class="w3-container w3-white">
+      <p>Pictured here is a sample of the April Tags used. Beneath each group of four is a family name and for our project we used the 36h11 family.</p>
+    </div>
+  </div>
+
+  <div class="w3-card-2 w3-margin w3-margin-top" style="background-color:white">
+  <img src="aptag60.png" style="width:40%">
+  <img src="aptag60_old.png" style="width:35%; float: right">
+    <div class="w3-container w3-white">
+      <p>Although these are different sizes, this shows the difference between the stock April Tags on the right and final tags we used on the right. As you can see the id of the tag was moved and made smaller and a lot of white space was removed also in order to make the tags as small as possible. The size of the tags was important because they had to be big enough to be seen by the cameras and also small enough that they would fit on the bottom of the models.</p>
+    </div>
+  </div>
+
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="trackingTags.png" style="width:100%">
+    <div class="w3-container w3-white">
+      <p>This shows a closer look at the tracking of the tags. If you look closely at the edges of this image, you can see the distortion of the picture. This is because we originally inteded to use a single camera with a fish eye lense in order to be able to see the entire park model but this screenshot was taken when the fish eye lense wasn't used meaning the camera adjustment was off because it was intended for a different camera.</p>
+    </div>
+  </div>
+
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="calibration.png" style="width:50%">
+  <img src="calibration-highlighted.png" style="width:50%; float:right">
+    <div class="w3-container w3-white">
+      <p>This shows the calibration process for the camera. The checkerboard was used with the OpenCV calibration program. The calibration program outputs an camera matrix and distorion coefficients which are used to adjust the camera.</p>
+    </div>
+  </div>
+
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="receivingData.png" style="width:50%; display: block; margin:auto">
+  <img src="sendingData.png" style="width:100%;">
+    <div class="w3-container w3-white">
+      <p>In order to communicate the position of the tags to the virtual reality computer, we used websockets and a node server. The websockets were used to send the id of the tag, the position and the orientation. The top image is an image of the data when it is received by the server and the bottom is an image of the data being sent.</p>
+    </div>
+  </div>
+
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="chairWithPlane.png" style="width:50%;">
+  <img src="bridgeWithPlane.png" style="width:50%; float:right;">
+    <div class="w3-container w3-white">
+      <p>Digital models of the individual pieces were placed inside the point cloud of the park in virtual reality. This allowed the wearer of the goggles to see what the park would look like with the individual pieces in the places they are put on the physcial model. In order for the digital pieces to be orientated in the same way of the physical models, we placed a digital plane on the models to represent the tag. This plane had the same specifications as the physical tags.</p>
+    </div>
+  </div>
+  </div>
+
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
 
 </body>
 </html>
